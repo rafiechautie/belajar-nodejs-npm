@@ -1,0 +1,30 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar Node JS Npm",
+  "homepage": "https://www.programmerzamannow.com/",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo Before Application Start",
+    "start": "node index.js",
+    "poststart": "echo After Application Start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "programmerzamannow",
+    "pzn",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Muhammad Rafie Chautie",
+  "type": "module",
+  "license": "ISC"
+}
